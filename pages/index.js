@@ -9,7 +9,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-      window.location.href = "https://abu-bakkar.netlify.app";
+      window.location.href = "https://abu-bakkar1.netlify.app";
     }, 4000);
 
     return () => clearTimeout(timer);
